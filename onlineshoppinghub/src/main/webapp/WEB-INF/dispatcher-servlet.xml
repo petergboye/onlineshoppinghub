@@ -15,6 +15,7 @@
     ">
    
    <context:component-scan base-package="net.pet.onlineshoppinghub.controller"/>
+   <context:component-scan base-package="net.pet.shoppinghubbackend.daoImpl"/>           
    
    <bean id="viewResolver"
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
